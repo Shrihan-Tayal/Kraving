@@ -1,0 +1,98 @@
+.hero-section {
+    .container {
+        .logo {
+            a {
+                font-family: Rubik;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 24px;
+                text-align: center;
+                color: $primary-color;
+            }
+        }
+
+    }
+
+    .menu {
+        a {
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 450;
+            line-height: 16px;
+            text-align: center;
+            color: $tertiary-color;
+        }
+    }
+    .hero-content{
+        .search-box{
+            h3{
+                font-family: Rubik;
+                font-size: 32px;
+                font-weight: bold;
+                line-height: 24px;
+                text-align: center;
+                color: $secondary-color;
+            }
+            .search-input{
+                font-family: Rubik;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: center;
+                color: $tertiary-color;
+            }
+        }
+    }
+}
+.section-2{
+    .container{
+        .customization{
+            .content{
+                h3{
+                    font-family: Rubik;
+                    font-size: 32px;
+                    font-weight: bold;
+                    line-height: 24px;
+                    color: $tertiary-color;
+                    span{
+                        color: $primary-color;
+                    }
+                }
+                p{
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    color: $tertiary-color;
+                }
+            }
+        }
+    }
+}
+
+.section-3{
+    .section-3-content{
+        .container{
+            .order-now{
+                h3{
+                    font-family: Rubik;
+                    font-size: 32px;
+                    font-weight: bold;
+                    line-height: 24px;
+                    color: $secondary-color;
+                }
+                p{
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    color: $tertiary-color;
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    
+}

@@ -1,0 +1,38 @@
+.btn{
+    //type-1 (used for ADDING item and search button)
+    &.primary_btn{
+        background-color: $primary-color;
+        color: $secondary-color;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+
+        &:hover{
+            background-color: darken($primary-color, 10%);
+            transition-duration: 500ms;
+        }
+    }
+
+    &.secondary_btn{
+        background-color: #FFF2E8;
+        color: #FC8019;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+
+        &:hover{
+            background-color: darken(#FFF2E8, 10%);
+            transition-duration: 500ms;
+        }
+    }
+}

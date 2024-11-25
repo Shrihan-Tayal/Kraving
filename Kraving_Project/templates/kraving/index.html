@@ -1,0 +1,60 @@
+{% extends 'kraving/base.html' %}
+
+{% block title %}Home (Kravings){% endblock %}
+
+{% block content %}
+    {% load static %}
+    <section class="section-1">
+        <div class="container">
+            <div class="featured_places">
+                <div class="heading_section-1">
+                    <h2>Featured places in your area</h2>
+                </div>
+                <div class="restaurant scroll">
+                    <!-- Example restaurant cards -->
+                    <div class="restaurant-card">
+                        <div class="restaurant-img">
+                            <img src="{% static 'images/home_page/section_1/pizza.png' %}" alt="pizza">
+                        </div>
+                        <div class="restaurant-details">
+                            <h3>Restaurant Name</h3>
+                            <p>Location</p>
+                            <p>Rating</p>
+                            <button class="btn secondary_btn">View Menu</button>
+                        </div>
+                    </div>
+                    <!-- Add more restaurant cards similarly -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="container">
+            <div class="customization">
+                <div class="content">
+                    <h3>Customizable Orders <span>For You</span></h3>
+                    <p>
+                        Tailor your meals to perfection with our easy-to-use customization options, allowing you to add
+                        or remove ingredients to suit your preferences.
+                    </p>
+                    <a href="#order" class="btn secondary_btn">Order Now</a>
+                </div>
+                <div class="img-customization">
+                    <img src="{% static 'images/home_page/section-2/customize.png' %}" alt="Customize Order" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-3">
+        <div class="section-3-content">
+            <div class="container">
+                <div class="order-now">
+                    <h3>Ready to Satisfy Your Cravings?</h3>
+                    <button class="btn primary_btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
